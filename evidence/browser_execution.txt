@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Baseline touching after is Available",
+    "result": "PASS"
+  },
+  {
+    "name": "AC6/F1 initial catalog renders four rooms",
+    "result": "PASS"
+  },
+  {
+    "name": "AC4 original A101 touching after is Available",
+    "result": "PASS"
+  },
+  {
+    "name": "AC4 A101 overlap Unavailable",
+    "result": "PASS"
+  },
+  {
+    "name": "F5 switch B202 same interval becomes Available",
+    "result": "PASS"
+  },
+  {
+    "name": "F3 blocked room Unavailable",
+    "result": "PASS"
+  },
+  {
+    "name": "F1 exact capacity retains A101",
+    "result": "PASS"
+  },
+  {
+    "name": "F1/F5 insufficient capacity hides A101 and clears result",
+    "result": "PASS"
+  },
+  {
+    "name": "F2 ALL equipment leaves B202 only",
+    "result": "PASS"
+  },
+  {
+    "name": "F4 no matches has clear empty state and no stale availability",
+    "result": "PASS"
+  },
+  {
+    "name": "AC2 120 allowed",
+    "result": "PASS"
+  },
+  {
+    "name": "AC2 121 rejected",
+    "result": "PASS"
+  },
+  {
+    "name": "AC1 start exactly now rejected",
+    "result": "PASS"
+  },
+  {
+    "name": "End of day 24:00 clear",
+    "result": "PASS"
+  },
+  {
+    "name": "AC6 320px has no horizontal overflow",
+    "result": "PASS"
+  }
+]

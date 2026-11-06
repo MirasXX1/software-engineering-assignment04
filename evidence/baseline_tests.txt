@@ -1,0 +1,32 @@
+test_blocked (test_booking.BookingTests.test_blocked) ... ok
+test_bool_end (test_booking.BookingTests.test_bool_end) ... ok
+test_bool_start (test_booking.BookingTests.test_bool_start) ... ok
+test_contained (test_booking.BookingTests.test_contained) ... ok
+test_contains_existing (test_booking.BookingTests.test_contains_existing) ... ok
+test_duration_121 (test_booking.BookingTests.test_duration_121) ... ok
+test_empty_existing (test_booking.BookingTests.test_empty_existing) ... ok
+test_end_above_day (test_booking.BookingTests.test_end_above_day) ... ok
+test_end_of_day (test_booking.BookingTests.test_end_of_day) ... ok
+test_equal_existing (test_booking.BookingTests.test_equal_existing) ... ok
+test_exactly_120 (test_booking.BookingTests.test_exactly_120) ... ok
+test_fractional_end (test_booking.BookingTests.test_fractional_end) ... ok
+test_fractional_start (test_booking.BookingTests.test_fractional_start) ... ok
+test_multiple_gap (test_booking.BookingTests.test_multiple_gap) ... ok
+test_multiple_second_overlap (test_booking.BookingTests.test_multiple_second_overlap) ... ok
+test_negative_start (test_booking.BookingTests.test_negative_start) ... ok
+test_one_minute_after_now (test_booking.BookingTests.test_one_minute_after_now) ... ok
+test_overlap (test_booking.BookingTests.test_overlap) ... ok
+test_reversed (test_booking.BookingTests.test_reversed) ... ok
+test_start_at_midnight (test_booking.BookingTests.test_start_at_midnight) ... ok
+test_starts_before_now (test_booking.BookingTests.test_starts_before_now) ... ok
+test_starts_now (test_booking.BookingTests.test_starts_now) ... ok
+test_string_start (test_booking.BookingTests.test_string_start) ... ok
+test_touch_after (test_booking.BookingTests.test_touch_after) ... ok
+test_touch_before (test_booking.BookingTests.test_touch_before) ... ok
+test_unsorted_existing (test_booking.BookingTests.test_unsorted_existing) ... ok
+test_zero_duration (test_booking.BookingTests.test_zero_duration) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.001s
+
+OK

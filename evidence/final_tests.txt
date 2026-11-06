@@ -1,0 +1,57 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> vite-react-typescript-starter@0.0.0 test
+> node --test tests/*.test.js
+
+✔ Catalog has four complete immutable room records (1.445492ms)
+✔ F1 exact capacity 20 includes A101 (0.230296ms)
+✔ F1 capacity 21 excludes A101 (0.172529ms)
+✔ F1 zero, fractional and invalid attendees return no matches (0.87791ms)
+✔ F2 equipment uses ALL: computers plus whiteboard only B202 (0.353862ms)
+✔ F2 combined capacity and equipment (0.161142ms)
+✔ F2 no required items retains capacity matches (0.184707ms)
+✔ F3 blocked D404 never available even for free time (0.672311ms)
+✔ F4 empty state and stale selection cleared (0.225559ms)
+✔ F5 integration room switch uses selected bookings (0.314162ms)
+✔ F5 switch back recomputes previous conflict (0.196525ms)
+✔ F5 filter invalidates hidden room without auto-selection (0.168964ms)
+✔ F5 matching selection is retained (0.154753ms)
+✔ AC5 full workflow never mutates room catalog (0.235654ms)
+✔ Unknown room ID cannot produce availability (0.165529ms)
+✔ AC1-AC5 / touch_after (2.421079ms)
+✔ AC1-AC5 / overlap (0.241022ms)
+✔ AC1-AC5 / blocked (0.226871ms)
+✔ AC1-AC5 / exactly_120 (0.189004ms)
+✔ AC1-AC5 / duration_121 (0.237807ms)
+✔ AC1-AC5 / starts_now (0.156615ms)
+✔ AC1-AC5 / starts_before_now (0.146059ms)
+✔ AC1-AC5 / reversed (0.157958ms)
+✔ AC1-AC5 / zero_duration (0.192078ms)
+✔ AC1-AC5 / negative_start (0.282585ms)
+✔ AC1-AC5 / end_above_day (0.140471ms)
+✔ AC1-AC5 / end_of_day (0.147993ms)
+✔ AC1-AC5 / start_at_midnight (0.12641ms)
+✔ AC1-AC5 / one_minute_after_now (1.138992ms)
+✔ AC1-AC5 / touch_before (0.142974ms)
+✔ AC1-AC5 / contained (0.181142ms)
+✔ AC1-AC5 / contains_existing (0.170667ms)
+✔ AC1-AC5 / equal_existing (0.105849ms)
+✔ AC1-AC5 / multiple_second_overlap (0.090006ms)
+✔ AC1-AC5 / multiple_gap (0.135714ms)
+✔ AC1-AC5 / unsorted_existing (0.091378ms)
+✔ AC1-AC5 / empty_existing (0.080741ms)
+✔ AC1-AC5 / fractional_start (0.066039ms)
+✔ AC1-AC5 / fractional_end (0.106941ms)
+✔ AC1-AC5 / string_start (0.096385ms)
+✔ AC1-AC5 / bool_start (0.080391ms)
+✔ AC1-AC5 / bool_end (0.067982ms)
+✔ Parser rejects decimals, blank, exponent and unsafe integer (0.242134ms)
+✔ End 1440 displays 24:00 (0.085439ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 44
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 145.772819

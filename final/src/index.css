@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #f4f5f7;
+  color: #192333;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+main {
+  max-width: 1080px;
+  margin: auto;
+  padding: 38px 22px;
+}
+header {
+  margin-bottom: 26px;
+}
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 8px 0;
+}
+h2 {
+  font-size: 19px;
+  margin: 0 0 12px;
+}
+h3 {
+  font-size: 15px;
+}
+p {
+  margin: 8px 0;
+  color: #4b5664;
+}
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  color: #305b78;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 22px;
+}
+section {
+  background: white;
+  border: 1px solid #d9dee4;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 18px;
+}
+label {
+  display: block;
+  font-size: 14px;
+}
+input[type="number"] {
+  display: block;
+  width: 100%;
+  padding: 11px;
+  margin-top: 5px;
+  border: 1px solid #9da9b7;
+  border-radius: 6px;
+  font-size: 16px;
+}
+fieldset {
+  margin: 20px 0 0;
+  padding: 12px;
+  border: 1px solid #ccd3dc;
+}
+legend {
+  font-size: 13px;
+}
+.check {
+  display: flex;
+  gap: 9px;
+  padding: 5px;
+}
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
+.rooms {
+  display: grid;
+  gap: 10px;
+}
+.room {
+  text-align: left;
+  background: #fff;
+  border: 1px solid #b9c3ce;
+  border-radius: 8px;
+  padding: 13px;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  min-width: 0;
+}
+.room span {
+  display: block;
+  font-size: 13px;
+  color: #4b5664;
+}
+.room.selected {
+  border: 2px solid #285d80;
+  background: #edf5fa;
+  padding: 12px;
+}
+.room:focus-visible,
+input:focus-visible {
+  outline: 3px solid #5487bd;
+  outline-offset: 3px;
+}
+.times {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.result {
+  padding: 15px;
+  border-radius: 8px;
+  background: #f2f4f6;
+}
+.result.available {
+  background: #eaf5ee;
+  border-left: 4px solid #27734a;
+}
+.result.unavailable {
+  background: #fcf0ef;
+  border-left: 4px solid #ad3c36;
+}
+footer {
+  font-size: 12px;
+  color: #536171;
+}
+@media (max-width: 720px) {
+  main {
+    padding: 22px 14px;
+  }
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  section {
+    padding: 17px;
+  }
+}
