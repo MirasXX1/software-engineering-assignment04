@@ -1,0 +1,14 @@
+interface:
+  display_name: Bug Detector
+  short_description: Diagnose Smart Campus failures using tests and criteria
+  default_prompt: Use $bug-detector to diagnose this failed room booking test without
+    editing code.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
